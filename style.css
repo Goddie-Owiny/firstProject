@@ -1,0 +1,68 @@
+
+
+.navbar a{
+    cursor: pointer;
+    font-size: medium;
+    transition: all 0.5s
+}
+
+.navbar> .container-fluid >.logo{
+    display: flex;
+    justify-content: spa;
+    align-items: center;
+    
+}
+
+.logo-text{
+    color: rgb(94, 94, 94);
+    padding: 10px;
+    font-family: 'https://fonts.google.com/specimen/Kode+Mono';
+    font-size: xx-large;
+    font-weight: 900;
+}
+
+.navbar a:hover{
+    color: gray;
+}
+
+p{
+    color: auto;
+}
+
+#main{
+    
+    width: 300px;
+    height: 500px;
+    padding: 2ch;
+    margin: auto 1cm auto 1cm;
+    border-radius: 10px;
+    border: 5px solid #e8eeed;
+    background: linear-gradient(199deg,#313030 0%, #00c9ff 80%);
+    color: white;
+    display: flex;
+    float: right;
+    transition: all 0.5s;
+}
+
+#main:hover{
+   box-shadow: -12px 2px 56px -30px rgba(0,0,0,0.68);
+}
+
+#main p{
+    color: inherit;
+    line-height: 3cqmax;
+}
+
+/* #social{
+    display: block;
+    bottom: 1rem;
+    
+    
+} */
+
+.react{
+    transition: all 3s;
+}
+.react:hover{
+    transform: rotate(360deg);
+}
