@@ -65,3 +65,12 @@
 .container-fluid {
   padding: 0px 0px;
 }
+
+.copy{
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background: linear-gradient(177deg,#00c9ff 0%, #5290b1 80%);
+  color: white;
+}
