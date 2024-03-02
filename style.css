@@ -1,7 +1,16 @@
 
 /* Navigation styles */
-.nav-link,
+/* .nav-link,
 .dropdown-menu {
+  color: white;
+} */
+
+.dropdown-item{
+  transition: all 80ms;
+}
+
+.dropdown-item:hover{
+  background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
   color: white;
 }
 
@@ -74,3 +83,7 @@
   background: linear-gradient(177deg,#00c9ff 0%, #5290b1 80%);
   color: white;
 }
+
+/* .blog{
+
+} */

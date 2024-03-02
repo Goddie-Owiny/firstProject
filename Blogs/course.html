@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Home page</title>
+    <title>My Blog page</title>
     <link rel="stylesheet" href="/css/bootstrap.css" />
     <link rel="stylesheet" href="/style.css" />
   </head>
@@ -17,7 +17,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" aria-current="page" href="#">About</a>
@@ -29,15 +29,16 @@
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Blogs
               </a>
-              <li class="nav-item">
-                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Gallery</a>
-              </li>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li><a class="dropdown-item" href="#">Course</a></li>
+                <li><hr class="dropdown-divider"></li>
                 <li><a class="dropdown-item" href="#">School Experience</a></li>
                 <li><hr class="dropdown-divider"></li>
                 <li><a class="dropdown-item" href="#">Coding Background</a></li>
               </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/gallery.html" tabindex="-1" aria-disabled="true">Gallery</a>
             </li>
           </ul>
           <form class="d-flex">
@@ -48,8 +49,37 @@
       </div>
     </nav>
 
+    <div class="container">
+      <div class="row">
+        <div class="col-4 mt-5 col-md-6 col-sm-6">
+          <img class="img-fluid" src="/images/2-guys.png" height="10px" alt="">
+        </div>
+        <div class="col-6 col-md-6 col-sm-6">
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non ipsam consequuntur 
+            veniam eligendi illo? Quam odio possimus ex ipsam hic similique laudantium nulla 
+            sint voluptates? Vel, dolorem perspiciatis! Soluta, repellendus?
+          </p>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non ipsam consequuntur veniam eligendi illo? Quam odio possimus ex ipsam hic similique laudantium nulla sint voluptates? Vel, dolorem perspiciatis! Soluta, repellendus?</p>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non ipsam consequuntur veniam eligendi illo? Quam odio possimus ex ipsam hic similique laudantium nulla sint voluptates? Vel, dolorem perspiciatis! Soluta, repellendus?</p>
+        </div>
+        <div class="col-2 col-md-6">
+          <div class="mt-5">
+            <h6>Lorem ipsum dolor sit amet consectetur</h6>
+            <img class="img-fluid" src="/images/py.jpg" alt="Py"><hr>
+          </div>
+          <div class="mt-5">
+            <h6>Lorem ipsum dolor sit amet consectetur</h6>
+            <img class="img-fluid" src="/images/tm.jpg" alt=""><hr>
+          </div>
+          <div class="mt-5">
+            <h6>Lorem ipsum dolor sit amet consectetur</h6>
+          <img class="img-fluid" src="/images/logo.png" alt=""><hr>
+        </div>
+      </div>
+    </div>
+
     <div class="copy">
-      <p class="mt-3">&copyCopyright: 2024. All Rights Reserved, Godfrey Owiny</p>
+      <p class="mt-3">&copyCopyright: 2024. All Rights Reserved: Godfrey Owiny</p>
     </div>
 
     <script src="/js/bootstrap.bundle.js"></script>
