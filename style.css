@@ -104,3 +104,8 @@ body {
   font-size: 12px;
 }
 
+form h2{
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
