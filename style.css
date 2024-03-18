@@ -116,3 +116,33 @@ div h4{
   text-justify: justify;
   font-weight: 900;
 }
+
+.blog-image {
+  padding: 1cap;
+  border-radius: 5px;
+  transition: all 80ms;
+}
+
+.blog-image:hover {
+  border: 2px solid #5290b1;
+  transition: all 80ms;
+}
+
+.blog-image{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  display: flex;
+  top: 70%;
+  left: 40%;
+  padding: 0.5rem 1rem;
+  border: 1px solid #00c9ff;
+  border-radius: 5px;
+  z-index: 3;
+  transform: translate(-50%, -50%);
+}
+
